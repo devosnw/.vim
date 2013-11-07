@@ -4,3 +4,6 @@
 [submodule "bundle/vim-tomorrow-theme"]
 	path = bundle/vim-tomorrow-theme
 	url = git@github.com:chriskempson/vim-tomorrow-theme.git
+[submodule "bundle/vim-hemisu"]
+	path = bundle/vim-hemisu
+	url = git@github.com:noahfrederick/vim-hemisu.git
