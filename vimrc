@@ -107,7 +107,7 @@ set directory=~/.vim/swap,. " keeps all the "file.ext.swp files here
 
 " colorscheme
 "set background=light
-"colorscheme Hemisu
+colorscheme Tomorrow
 
 " NERD Tree settings
 "map <C-k> :NERDTreeToggle<CR>
