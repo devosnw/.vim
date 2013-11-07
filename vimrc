@@ -33,7 +33,7 @@ endif
 """""""""""""""""""""""""
 " general options
 """""""""""""""""""""""""
-set number
+set number                  " line numbers
 set ruler                   " show the cursor position all the time
 set visualbell              " disable sounds
 set showcmd                 " display incomplete commands
@@ -88,17 +88,17 @@ nnoremap k gk
 " key commands
 """""""""""""""""""""""""
 " in command mode, you can just type ';' instead of ':'
-"nnoremap ; :
+nnoremap ; :
 " for quicker bailing out of insert mode
-"inoremap jj <esc>
+inoremap jj <esc>
 " my leader key
-"let mapleader = ","
+let mapleader = ","
 
 """""""""""""""""""""""""
 " colorscheme helpers
 """""""""""""""""""""""""
-"let g:solarized_termcolors=256
-"let g:solarized_termtrans=1
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
 
 """""""""""""""""""""""""
 " colorscheme
