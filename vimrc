@@ -110,5 +110,5 @@ set directory=~/.vim/swap,. " keeps all the "file.ext.swp files here
 colorscheme Tomorrow
 
 " NERD Tree settings
-"map <C-k> :NERDTreeToggle<CR>
-"autocmd vimenter * if !argc() | NERDTree | endif
+map <C-k> :NERDTreeToggle<CR>
+autocmd vimenter * if !argc() | NERDTree | endif
