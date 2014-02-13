@@ -40,6 +40,7 @@ set showcmd                 " display incomplete commands
 set showmode                " show current mode at the bottom
 set history=1000            " keep 1000 lines of command line history
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
+set colorcolumn=80
 
 """""""""""""""""""""""""
 " indentation
