@@ -33,7 +33,7 @@ endif
 """""""""""""""""""""""""
 " general options
 """""""""""""""""""""""""
-set number
+set number                  " line numbers
 set ruler                   " show the cursor position all the time
 set visualbell              " disable sounds
 set showcmd                 " display incomplete commands
@@ -54,6 +54,7 @@ set expandtab
 """""""""""""""""""""""""
 " search
 """""""""""""""""""""""""
+set ignorecase              " case insensitive searching
 set incsearch               " do incremental searching
 
 """""""""""""""""""""""""
@@ -80,7 +81,8 @@ set nowrap                  " no line wrapping
 set scrolloff=8             " start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
-nnoremap j gj               " makes navigation by j and k behave the way they should
+" makes navigation by j and k behave the way they should
+nnoremap j gj
 nnoremap k gk
 
 """""""""""""""""""""""""
@@ -96,8 +98,8 @@ let mapleader = ","
 """""""""""""""""""""""""
 " colorscheme helpers
 """""""""""""""""""""""""
-"let g:solarized_termcolors=256
-"let g:solarized_termtrans=1
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
 
 """""""""""""""""""""""""
 " colorscheme
@@ -109,4 +111,5 @@ colorscheme Tomorrow
 " NERD Tree settings
 """""""""""""""""""""""""
 map <leader>n :NERDTreeToggle<CR>
-autocmd vimenter * if !argc() | NERDTree | endif " show NERD Tree if nothing open
+" show NERD Tree if nothing open
+autocmd vimenter * if !argc() | NERDTree | endif
