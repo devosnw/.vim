@@ -25,5 +25,5 @@ $ git submodule update
 file the next time it starts.
 
 ```bash
-$ ln -s ~.vim/vimrc ~/.vimrc
+$ ln -s ~/.vim/vimrc ~/.vimrc
 ```
