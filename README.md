@@ -18,11 +18,12 @@ ready to use.
 ```bash
 $ cd .vim
 $ git submodule init
+$ git submodule update
 ```
 
 3) Link the `vimrc` file into your home directory. `vim` will now read this
 file the next time it starts.
 
 ```bash
-$ ln -s vimrc ~/.vimrc
+$ ln -s ~.vim/vimrc ~/.vimrc
 ```
